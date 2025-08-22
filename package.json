@@ -1,12 +1,13 @@
 {
   "name": "condowayapp",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "tsc": "tsc -p tsconfig.json"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^2.2.0",
@@ -23,7 +24,10 @@
     "react-native-screens": "~4.11.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "typescript": "^5.1.6",
+    "@types/react": "^18.2.21",
+    "@types/react-native": "^0.71.7"
   },
   "private": true
 }

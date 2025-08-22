@@ -1,3 +1,4 @@
+// @ts-nocheck
 // screens/LoginScreen.js
 import React, { useState } from 'react';
 import { View, StyleSheet, ScrollView, KeyboardAvoidingView, Platform } from 'react-native';

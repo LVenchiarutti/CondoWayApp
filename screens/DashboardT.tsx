@@ -1,3 +1,4 @@
+// @ts-nocheck
 // screens/DashboardT.js
 import React from 'react';
 import { View } from 'react-native';

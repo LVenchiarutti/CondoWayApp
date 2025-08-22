@@ -1,3 +1,4 @@
+// @ts-nocheck
 // screens/sindico/GestaoAmbientesT.js
 import React, { useState } from 'react';
 import { ScrollView, View, StyleSheet } from 'react-native';

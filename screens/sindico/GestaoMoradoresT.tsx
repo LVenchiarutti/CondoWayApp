@@ -1,3 +1,4 @@
+// @ts-nocheck
 // screens/sindico/GestaoMoradoresT.js
 import React, { useState } from 'react';
 import { ScrollView, View, StyleSheet } from 'react-native';

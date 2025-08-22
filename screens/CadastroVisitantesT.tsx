@@ -1,3 +1,4 @@
+// @ts-nocheck
 // screens/CadastroVisitantesT.js
 import React, { useState } from 'react';
 import { ScrollView, View, StyleSheet, Platform, Pressable } from 'react-native';

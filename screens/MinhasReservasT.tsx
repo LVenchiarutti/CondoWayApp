@@ -1,3 +1,4 @@
+// @ts-nocheck
 // screens/MinhasReservasT.js
 import React, { useState } from 'react';
 import { ScrollView, View, StyleSheet } from 'react-native';

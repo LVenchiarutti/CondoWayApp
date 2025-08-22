@@ -1,3 +1,4 @@
+// @ts-nocheck
 // components/dashboard/MoradorDashboard.js
 import React from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native'; // Importe o View
