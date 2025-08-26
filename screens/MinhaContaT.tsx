@@ -117,4 +117,4 @@ const styles = StyleSheet.create({
     infoBoxTitle: { fontWeight: 'bold', marginBottom: 4 }
 });
 
-export default MinhaContaT;
+export { default } from './MinhaContaWeb';

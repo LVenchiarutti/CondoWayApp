@@ -156,4 +156,4 @@ const styles = StyleSheet.create({
     input: { marginBottom: 12 }
 });
 
-export default GestaoMoradoresT;
+export { default } from './GestaoMoradoresWeb';

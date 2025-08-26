@@ -151,4 +151,4 @@ const styles = StyleSheet.create({
     footerText: { color: 'gray' },
 });
 
-export default ComunicadosT;
+export { default } from './ComunicadosWeb';

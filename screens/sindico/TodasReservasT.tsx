@@ -126,4 +126,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default TodasReservasT;
+export { default } from './TodasReservasWeb';

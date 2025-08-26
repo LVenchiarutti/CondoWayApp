@@ -1,0 +1,11 @@
+export { default as Login } from './LoginWeb';
+export { default as Dashboard } from './DashboardWeb';
+export { default as Ambientes } from './AmbientesWeb';
+export { default as CadastroVisitantes } from './CadastroVisitantesWeb';
+export { default as Comunicados } from './ComunicadosWeb';
+export { default as Configuracoes } from './ConfiguracoesWeb';
+export { default as MinhaConta } from './MinhaContaWeb';
+export { default as MinhasReservas } from './MinhasReservasWeb';
+export { default as GestaoAmbientes } from './sindico/GestaoAmbientesWeb';
+export { default as GestaoMoradores } from './sindico/GestaoMoradoresWeb';
+export { default as TodasReservas } from './sindico/TodasReservasWeb';

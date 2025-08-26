@@ -87,4 +87,4 @@ const styles = StyleSheet.create({
 });
 
 // A exportação continua a mesma.
-export default AmbientesT;
+export { default } from './AmbientesWeb';

@@ -1,12 +1,7 @@
-// @ts-nocheck
-// App.js
+// App.tsx
 import React from 'react';
-import { Provider as PaperProvider } from 'react-native-paper';
-import AppNavigator from './navigation/AppNavigator';
+import AppNavigator from './navigation/AppNavigatorWeb';
+
 export default function App() {
-  return (
-    <PaperProvider>
-      <AppNavigator />
-    </PaperProvider>
-  );
+  return <AppNavigator />;
 }

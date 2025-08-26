@@ -120,4 +120,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default ConfiguracoesT;
+export { default } from './ConfiguracoesWeb';

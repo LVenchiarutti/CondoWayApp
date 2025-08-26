@@ -136,4 +136,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default SindicoDashboard;
+export { default } from './SindicoDashboardWeb';

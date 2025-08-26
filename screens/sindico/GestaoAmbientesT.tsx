@@ -76,4 +76,4 @@ const styles = StyleSheet.create({
     badge: { alignSelf: 'flex-start', color: 'white', marginBottom: 12 },
 });
 
-export default GestaoAmbientesT;
+export { default } from './GestaoAmbientesWeb';

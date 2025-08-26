@@ -90,4 +90,4 @@ const DashboardT = ({ user, setUser }) => {
   );
 };
 
-export default DashboardT;
+export { default } from './DashboardWeb';

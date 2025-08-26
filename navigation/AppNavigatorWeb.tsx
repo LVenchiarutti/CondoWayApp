@@ -1,14 +1,5 @@
-// navigation/AppNavigator.tsx
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import AsyncStorage from '../src/utils/storage';
-
-import LoginScreen from '../screens/LoginWeb'; 
-import DashboardScreen from '../screens/DashboardWeb'; 
-
-// navigation/AppNavigator.tsx
-import React, { useState, useEffect } from 'react';
-import AsyncStorage from '../src/utils/storage';
-
 import LoginScreen from '../screens/LoginWeb'; 
 import DashboardScreen from '../screens/DashboardWeb';
 
@@ -64,7 +55,5 @@ const AppNavigator: React.FC = () => {
     </>
   );
 };
-
-export default AppNavigator;
 
 export default AppNavigator;

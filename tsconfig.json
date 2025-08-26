@@ -1,19 +1,33 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "ES2015",
     "module": "ESNext",
-    "jsx": "react-native",
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
+    "lib": ["dom", "dom.iterable", "es6"],
     "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
     "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
       "*": ["node_modules/*"]
     }
   },
-  "exclude": ["node_modules", "babel.config.js"],
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"]
+  "include": [
+    "src/**/*",
+    "screens/**/*",
+    "components/**/*",
+    "navigation/**/*",
+    "*.ts",
+    "*.tsx",
+    "**/*Web.tsx"
+  ],
+  "exclude": ["node_modules", "babel.config.js", "webpack.config.js"]
 }
